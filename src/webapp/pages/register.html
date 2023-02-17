@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>New Website</title>
+</head>
+
+<nav>
+    <h1 id="main">Site Navigasyon Sayfasi</h1>
+    <a href="index.html">Mainpage</a>
+    <a href="profile.html">Profile</a>
+    <a href="contact.html">Contact</a>
+    <hr>
+</nav>
+<h1>
+    Registration Form
+</h1>
+<body style="background-color:#E6E6FA">
+<center>
+<hr>
+<form name="data">
+<section name="personalData">
+
+<caption><b>Registration Form</b> </caption><br><br>
+
+    Username: <input type="text" name="username" placeholder="Username" required><br><br>
+    Password:  <input type="password" name="password" placeholder="Password" required><br><br>
+        FullName:     <input type="text" name="fullName" placeholder="FullName" required><br><br>
+    Gender:   <input type="radio" name="gender" value="male" checked="checked"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other" > Other<br><br>
+        Date of Birth:   <input type="date" name="surname" placeholder="Surname" required><br><br>
+    Email:   <input type="email" name="email" placeholder="email@xyz.com" required><br><br>
+    Mobile: <input type="tel" name="tel" placeholder="XXX XXX XXXX" required><br><br>
+        Occupation:
+        <select name="occupation">
+            <option value="teacher">Teacher</option>
+            <option value="engineer">Engineer</option>
+            <option value="doctor">Doctor</option>
+            <option value="police">Police</option>
+    </select><br><br>
+        <textarea name="message" rows="5" cols="50" placeholder="Do you have something to note?"></textarea><br><br>
+
+
+</section>
+<hr>
+<section name="addressData">
+    <caption><b>Permanent Address</b> </caption><br><br>
+        This is My Permanent Address:<input type="checkbox" name="addressPermanent" value=""><br><br>
+        State: <input type="text" name="state" placeholder="State" required><br><br>
+        City:<input type="text" name="city" placeholder="City" required><br><br>
+        Zip Code:<input type="number" name="zip Code" placeholder="Zip Code" required><br><br>
+        Tel:<input type="text" name="tel" placeholder="XXX XXX XXXX" required><br><br>
+    <textarea name="messageAddress" rows="5" cols="50" placeholder="Detailed address..."></textarea><br><br>
+
+</section>
+<section name="sendOrReset">
+    <input type="submit" name="register" placeholder="Register" formaction="profile.html">
+    <input type="Reset" name="clear" placeholder="Clear Data">
+</section>
+</form>
+</center>
+</body>
+
+
+</html>
